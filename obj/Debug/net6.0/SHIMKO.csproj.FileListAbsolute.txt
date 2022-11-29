@@ -1,0 +1,15 @@
+D:\BSTU\ООП\SHIMKO\bin\Debug\net6.0\SHIMKO.exe
+D:\BSTU\ООП\SHIMKO\bin\Debug\net6.0\SHIMKO.deps.json
+D:\BSTU\ООП\SHIMKO\bin\Debug\net6.0\SHIMKO.runtimeconfig.json
+D:\BSTU\ООП\SHIMKO\bin\Debug\net6.0\SHIMKO.dll
+D:\BSTU\ООП\SHIMKO\bin\Debug\net6.0\SHIMKO.pdb
+D:\BSTU\ООП\SHIMKO\obj\Debug\net6.0\SHIMKO.csproj.AssemblyReference.cache
+D:\BSTU\ООП\SHIMKO\obj\Debug\net6.0\SHIMKO.GeneratedMSBuildEditorConfig.editorconfig
+D:\BSTU\ООП\SHIMKO\obj\Debug\net6.0\SHIMKO.AssemblyInfoInputs.cache
+D:\BSTU\ООП\SHIMKO\obj\Debug\net6.0\SHIMKO.AssemblyInfo.cs
+D:\BSTU\ООП\SHIMKO\obj\Debug\net6.0\SHIMKO.csproj.CoreCompileInputs.cache
+D:\BSTU\ООП\SHIMKO\obj\Debug\net6.0\SHIMKO.dll
+D:\BSTU\ООП\SHIMKO\obj\Debug\net6.0\refint\SHIMKO.dll
+D:\BSTU\ООП\SHIMKO\obj\Debug\net6.0\SHIMKO.pdb
+D:\BSTU\ООП\SHIMKO\obj\Debug\net6.0\SHIMKO.genruntimeconfig.cache
+D:\BSTU\ООП\SHIMKO\obj\Debug\net6.0\ref\SHIMKO.dll
