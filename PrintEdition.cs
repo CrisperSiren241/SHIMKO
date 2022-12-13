@@ -23,4 +23,26 @@ namespace SHIMKO
             return base.ToString();
         }
     }
+    enum Print
+    {
+        Company, Action, Corporate
+    }
+
+    struct StructPrintEdition
+    {
+        public string information;
+        public int year;
+        Print etype;
+        public void PrintEType()
+        {
+            etype = Print.Action;
+        }
+
+        public void Info()
+        {
+            Console.WriteLine("Использован метод структуры!");
+            Console.WriteLine(information);
+            Console.WriteLine(year);
+        }
+    }
 }

@@ -21,5 +21,20 @@ namespace SHIMKO
         {
             return NameOfHouse + QualityOfBook + CountOfPage + genreOfBook;
         }
+
+        enum EMagaz
+        {
+            Popular, cheap, expensive
+        }
+
+        struct StructMagaz
+        {
+            EMagaz etype;
+            public void PrintEType()
+            {
+                etype = EMagaz.cheap;
+            }
+
+        }
     }
 }

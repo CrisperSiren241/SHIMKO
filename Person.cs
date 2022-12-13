@@ -24,4 +24,23 @@ namespace SHIMKO
             return username;
         }
     }
+
+    enum Eperson
+    {
+        man, woman
+    }
+
+    struct StructPerson
+    {
+        public Eperson etype;
+        public void PrintEType()
+        {
+            etype = Eperson.man;
+        }
+
+        public void Info()
+        {
+            Console.WriteLine("Использован метод структуры!");
+        }
+    }
 }

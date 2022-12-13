@@ -29,4 +29,6 @@ namespace SHIMKO
             return base.Equals(obj);
         }
     }
+
+
 }

@@ -23,5 +23,20 @@ namespace SHIMKO
         {
             return NameOfAuthor;
         }
+
+        enum EAuthor
+        {
+            Popular, unpopular, beginner
+        }
+
+        struct StructAuthor
+        {
+            EAuthor etype;
+            public void PrintEType()
+            {
+                etype = EAuthor.beginner;
+            }
+
+        }
     }
 }

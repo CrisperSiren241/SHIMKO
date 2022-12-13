@@ -22,5 +22,20 @@ namespace SHIMKO
         {
             return NameOfHouse + QualityOfBook + CountOfPage + genreOfBook;
         }
+
+        enum EBook
+        {
+            Popular, cheap, expensive
+        }
+
+        struct StructBook
+        {
+            EBook etype;
+            public void PrintEType()
+            {
+                etype = EBook.expensive;
+            }
+
+        }
     }
 }

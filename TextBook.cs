@@ -24,4 +24,19 @@ namespace SHIMKO
             return NameOfHouse + QualityOfBook + CountOfPage + genreOfBook;
         }
     }
+
+    enum ETextBook
+    {
+        first, second, third
+    }
+
+    struct StructTextBook
+    {
+        ETextBook etype;
+        public void PrintEType()
+        {
+            etype = ETextBook.first;    
+        }
+
+    }
 }
