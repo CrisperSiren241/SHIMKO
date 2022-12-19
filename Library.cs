@@ -25,12 +25,25 @@ namespace SHIMKO
 
         public void SortJewel()
         {
+            if(BookName == null)
+            {
+                throw new BooksException("Error");
+            }
             Array.Sort(BookPrice);
         }
 
         public override string ToString()
         {
-            return "Книга: " + BookName + "\nАвтор" + AuthorName + "Издательство" + HouseName + ", " + "\n" + "Цена: " + BookPrice;
+            string result = "";
+            try
+            {
+                result = "Книга: " + BookName + "\nАвтор" + AuthorName + "Издательство" + HouseName + ", " + "\n" + "Цена: " + BookPrice;
+            }
+            catch(FormatException e)
+            {
+                Console.WriteLine(e.Message + e.InnerException + e.Source);
+            }
+            return result;
         }
     }
 }

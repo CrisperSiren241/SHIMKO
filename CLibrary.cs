@@ -29,6 +29,7 @@ namespace SHIMKO
 
         public void Remove(object elem, int position)
         {
+            
             for (int i = position; i < List.Length; i++)
             {
                 List[i] = List[i + 1];
